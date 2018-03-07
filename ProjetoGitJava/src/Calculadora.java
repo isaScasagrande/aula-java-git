@@ -27,3 +27,15 @@ public class Calculadora {
     return num1 * num2 ;
     
     }
+    
+public static void main (String [] args){
+    double num1 = 10;
+    double num2 = 20;
+    Calculadora calculadora = new Calculadora();
+    System.out.println(calculadora.subtracao(num1, num2));
+     System.out.println(calculadora.divisao(num1, num2));
+      System.out.println(calculadora.soma(num1, num2));
+       System.out.println(calculadora.multiplicacao(num1, num2));
+       
+}
+}
